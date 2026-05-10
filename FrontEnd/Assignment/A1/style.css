@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Kalam:wght@300;400;700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.left{
+    height: 100%;
+    width: 65%;
+    background-color: #fcc60c;
+    float: left;
+    padding: 20px 50px;
+}
+main{
+    height: 100%;
+    width: 100%;
+    
+}
+.right{
+    height: 100%;
+    width: 35%;
+    background-color: #fce8b5;
+    float: right;
+    text-align: end;
+    padding: 30px 50px;
+}
+.pikachu{
+   position: absolute;
+    right: 15%;
+}
+.pokemon{
+   height: 60px;
+}
+.right i{
+    font-size: 30px;
+    align-items: right;
+}
+.content{
+    height: 40%;
+    width: 80%;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+.title{
+    letter-spacing: 2px;
+}
+.heading{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.boll{
+    position: absolute;
+    top: 60%;
+    left: -10%;
+    opacity: 0.1;
+    filter: brightness(0); 
+    stroke: #000;       
+}
+.line{
+    display: flex;
+    gap: 7px;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: rotate(90deg);
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 200, 0);
+}   
+.circle:nth-child(1){
+    background-color: black;
+}
