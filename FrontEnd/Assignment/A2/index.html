@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunaforycter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Gunaforycter</h1>
+        <div class="divider">
+            <svg width="60" height="15" viewBox="0 0 60 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 7.5 H 25 L 30 12.5 L 35 7.5 H 60" stroke="#D87B44" stroke-width="1.5"
+                    stroke-linejoin="round" />
+                <path d="M 27.5 7.5 L 30 2.5 L 32.5 7.5 Z" fill="#D87B44" />
+            </svg>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="drinks-grid">
+            <!-- Drink 1 -->
+            <div class="card active-card">
+                <div class="badge"><span class="icon">★</span> Signature</div>
+                <div class="image-wrapper">
+                    <img src="assets/drink_sunset_flame_1778440503819.png" alt="Sunset Flame">
+                </div>
+                <h2>Sunset Flame</h2>
+                <p>Tropical & Refreshing</p>
+                <div class="price">$12.94</div>
+            </div>
+            <!-- Drink 2 -->
+            <div class="card">
+                <div class="image-wrapper">
+                    <img src="assets/drink_tropical_passion_1778440518740.png" alt="Tropical Passion">
+                </div>
+                <h2>Tropical Passion</h2>
+                <p>Fruity & Exotic</p>
+                <div class="price">$11.04</div>
+            </div>
+            <!-- Drink 3 -->
+            <div class="card">
+                <div class="image-wrapper">
+                    <img src="assets/drink_citrus_dawn_1778440537352.png" alt="Citrus Dawn">
+                </div>
+                <h2>Citrus Dawn</h2>
+                <p>Citrusy & Energizing</p>
+                <div class="price">$10.13</div>
+            </div>
+            <!-- Drink 4 -->
+            <div class="card">
+                <div class="badge"><span class="icon dot"></span> New</div>
+                <div class="image-wrapper">
+                    <img src="assets/drink_berry_breeze_1778440553196.png" alt="Berry Breeze">
+                </div>
+                <h2>Berry Breeze</h2>
+                <p>Sweet & Cool</p>
+                <div class="price">$9.48</div>
+            </div>
+        </section>
+
+        <section class="chefs-special">
+            <div class="special-image">
+                <img src="assets/food_chefs_special_1778440567696.png" alt="Chef's Special">
+            </div>
+            <div class="special-content">
+                <div class="subtitle">CHEF'S SPECIAL</div>
+                <h2>Bouliauts for laguancns</h2>
+                <p class="description">Experience our signature culinary creations.</p>
+                <p class="details">Meticulously crafted with premium ingredients to deliver exceptional flavors and an
+                    unforgettable dining experience. Perfect for sharing or savoring on your own.</p>
+                <button class="explore-btn">Explore Menu <span class="arrow">→</span></button>
+            </div>
+            <!-- Decorative leaves can go here as pseudo element in CSS -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-left">© Gunaforycter 2025</div>
+        <div class="footer-nav">
+            <a href="#">Explore</a> <span class="dot">•</span>
+            <a href="#">Food Menu</a> <span class="dot">•</span>
+            <a href="#">Drinks</a> <span class="dot">•</span>
+            <a href="#">Reservations</a>
+        </div>
+        <div class="footer-social">
+            <span>Follow Us</span>
+            <a href="#" class="social-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+            </a>
+            <a href="#" class="social-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+            </a>
+            <a href="#" class="social-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                    </path>
+                </svg>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
