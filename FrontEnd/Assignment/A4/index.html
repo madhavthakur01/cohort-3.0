@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Design</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Google Fonts for modern typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar">
+        <span class="sidebar-text">Clients</span>
+        <span class="sidebar-text">Research</span>
+        <span class="sidebar-text">Portfolio</span>
+        <span class="sidebar-text">Podcast</span>
+    </div>
+
+    <div class="container">
+        <!-- Left Section: Purple Card -->
+        <div class="purple-card relative">
+            <div class="about-tab absolute">
+                <span class="icon">✣</span> About Me
+            </div>
+            
+            <div class="profile-img-container">
+                <div class="profile-ring"></div>
+                <img src="assets/profile_pic.png" alt="Jon Daniel" class="profile-img">
+            </div>
+
+            <div class="card-bottom absolute">
+                <h2 class="name">Im,<br>Raj<br>Singh</h2>
+                <div class="contact-info">
+                    inquiry@rajsingh.design <span class="email-icon">✉</span>
+                </div>
+            </div>
+
+            <div class="badge absolute">
+                <svg viewBox="0 0 100 100" class="rotating-text">
+                    <path id="circlePath" d="M 50, 50 m -35, 0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0" fill="none" />
+                    <text>
+                        <textPath href="#circlePath" startOffset="0%">MY 2025 DESIGN PORTFOLIO • MY 2025 DESIGN PORTFOLIO •</textPath>
+                    </text>
+                </svg>
+                <div class="badge-center"></div>
+            </div>
+        </div>
+
+        <!-- Right Section: Main Grid -->
+        <div class="right-grid">
+            <div class="portfolio-title">
+                <h1>Portfolio<span class="dot"></span><span class="corner"></span></h1>
+            </div>
+
+            <div class="flamingo-card relative">
+                <img src="assets/flamingo.png" alt="Flamingo" class="flamingo-img">
+                <div class="play-button absolute">▶</div>
+                <div class="corner-icon absolute top-right">⌝</div>
+            </div>
+
+            <div class="stats-card">
+                <div class="stat-box light-blue relative">
+                    <div class="corner-icon absolute top-right">⌝</div>
+                    <h3>251</h3>
+                    <p>Projects</p>
+                </div>
+                <div class="stat-box light-purple relative">
+                    <div class="corner-icon absolute top-right">⌝</div>
+                    <h3>156</h3>
+                    <p>Awards</p>
+                </div>
+            </div>
+
+            <div class="apple-card relative">
+                <div class="corner-icon absolute top-right">⌝</div>
+                <div class="apple-logo"></div>
+                <p>Clients</p>
+            </div>
+
+            <div class="sphere-card relative">
+                <img src="assets/sphere.png" alt="Sphere" class="sphere-img">
+            </div>
+
+            <div class="yellow-card relative">
+                <div class="corner-icon absolute top-right">⌝</div>
+                <h3>172</h3>
+                <p>Global Design<br>Awards.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
